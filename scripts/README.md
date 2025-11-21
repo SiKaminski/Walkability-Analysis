@@ -12,7 +12,7 @@ Before running the cells in the notebook, ensure that you have properly loaded `
 
 ## Steps
 
-The script will first import and extract the files in `data.tar.gz`. In the notebook, a neew directory will be created called `datasets`. This directory will contain all of the raw csv files for each collected state.
+The script will first import and extract the files in `data.tar.gz`. In the notebook, a new directory will be created called `datasets`. This directory will contain all of the raw csv files for each collected state.
 The next step in the script will be to clean and combine all of the data into one main DataFrame. Step will include aggregations, column removing/renaming, removing missing data or imputing missing data and creating quartiles (binning data) for different metrics
 Visuals are created in this script but the majaority of the visualzations are from the [Visualization Directory](../visualizations/README.md). The main purpose behind this script is to perform analysis on the data and prepare it for visualization in PowerBI.
 
